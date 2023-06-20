@@ -1,3 +1,42 @@
-.Weather {
-border:1px solid black;
+.Weather body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Serif 4', serif;
+
+
+}
+
+.Weather{
+    border: 1px solid gray;
+    padding: 16px;
+    margin: 30px auto;
+    
+}
+
+.Weather form {
+    margin-bottom: 20px;
+}
+
+.Weather ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+l.Weather i::first-letter {
+    text-transform: capitalize;
+
+}
+
+.Weather li {
+    list-style: none;
+
+}
+.Weather .temperature {
+    font-size: 36px;
+}
+.Weather .celsius {
+    font-size: 18px;
+    position: relative;
+    top:-12px;
+    margin-left: 2px;
 }
